@@ -1,0 +1,34 @@
+.barraStyle {
+    /* width: 100%; */
+    height: 20vh;
+    margin-top: 0;
+    display: flex;
+    background-color: rgb(228, 228, 137);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.barraButons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.barraCart {
+    display: flex;
+    flex-direction: row;
+    margin-right: 1%;
+    gap: 2px;
+}
+.button:hover {
+    border-color: rgb(139, 136, 136);
+}
+.nombreTienda{
+    font-size: 30px;
+    background-color:  rgb(228, 228, 137);
+    color: rgba(4, 79, 33, 0.851);
+    border: 0px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin-left: 1%;
+}  
